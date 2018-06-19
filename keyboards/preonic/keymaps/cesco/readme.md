@@ -7,3 +7,5 @@ keyboard has no backlight so that is gone and k40 is now an arrow layer for the 
 I love having both del and backspace!
 
 next: mouse..
+
+Mouse done, I feel the need for a quicker access to backspace because I'm typoing a lot
