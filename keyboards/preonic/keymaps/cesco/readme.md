@@ -11,3 +11,5 @@ next: mouse..
 Mouse done, I feel the need for a quicker access to backspace because I'm typoing a lot
 
 I press enter a lot when trying to right shift, going to force myself to use layers by moving both to enter and backspace to raise/lower spacebar and add the right shift again
+
+Adding my favourite intellij shortcut as a single key (for fun!)
