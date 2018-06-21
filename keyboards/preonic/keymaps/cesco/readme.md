@@ -13,3 +13,8 @@ Mouse done, I feel the need for a quicker access to backspace because I'm typoin
 I press enter a lot when trying to right shift, going to force myself to use layers by moving both to enter and backspace to raise/lower spacebar and add the right shift again
 
 Adding my favourite intellij shortcut as a single key (for fun!)
+
+Not bad except for qwerty hating the home row and the arrow key being hard to combine with modifiers
+
+Moving the arrow layer to the right thumb and practicing dvorak...
+
