@@ -18,3 +18,4 @@ Not bad except for qwerty hating the home row and the arrow key being hard to co
 
 Moving the arrow layer to the right thumb and practicing dvorak...
 
+Disabling the top row to simulate a Planck
