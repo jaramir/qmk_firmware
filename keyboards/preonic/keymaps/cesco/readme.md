@@ -19,3 +19,5 @@ Not bad except for qwerty hating the home row and the arrow key being hard to co
 Moving the arrow layer to the right thumb and practicing dvorak...
 
 Disabling the top row to simulate a Planck
+
+Not really using the mouse button at all and struggling with the arrows. On a positive note k4b is back in action!
