@@ -6,8 +6,8 @@
 #define GUI_S_A LGUI(LSFT(KC_A))
 
 #ifdef AUDIO_ENABLE
-    #define STARTUP_SONG SONG(OVERWATCH_THEME)
-    // #define STARTUP_SONG SONG(NO_SOUND)
+    // #define STARTUP_SONG SONG(OVERWATCH_THEME)
+    #define STARTUP_SONG SONG(NO_SOUND)
 
     #define WORKMAN_SOUND \
         E__NOTE(_GS7),    \
