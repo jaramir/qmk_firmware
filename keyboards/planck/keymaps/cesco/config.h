@@ -3,10 +3,8 @@
 
 #include "config_common.h"
 
-#define GUI_S_A LGUI(LSFT(KC_A))
-
 #ifdef AUDIO_ENABLE
-    // #define STARTUP_SONG SONG(OVERWATCH_THEME)
+    // #define STARTUP_SONG SONG(PLANCK_SOUND)
     #define STARTUP_SONG SONG(NO_SOUND)
 
     #define DEFAULT_LAYER_SONGS { SONG(QWERTY_SOUND), \
@@ -14,8 +12,6 @@
                                   SONG(DVORAK_SOUND) \
                                 }
 #endif
-
-#define MUSIC_MASK (keycode != KC_NO)
 
 /*
  * MIDI options
@@ -40,5 +36,8 @@
 
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
+
+// Most tactile encoders have detents every 4 stages
+#define ENCODER_RESOLUTION 4
 
 #endif
