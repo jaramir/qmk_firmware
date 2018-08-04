@@ -16,6 +16,20 @@
 
 #include QMK_KEYBOARD_H
 
+#ifdef TAP_DANCE_ENABLE
+enum {
+  TD_CSA_CCS4 = 0
+};
+
+qk_tap_dance_action_t tap_dance_actions[] = {
+  [TD_CSA_CCS4]  = ACTION_TAP_DANCE_DOUBLE(
+    LGUI(LSFT(KC_A)),
+    LGUI(LSFT(LCTL(KC_4))))
+};
+
+#define GUI_S_A TD(TD_CSA_CCS4)
+#endif
+
 enum preonic_layers {
   _QWERTY,
   _WORKMAN,

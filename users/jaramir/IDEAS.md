@@ -1,11 +1,13 @@
 IDEAS
 =====
 
-* remap arrows (?)
+* take screenshot shortcut (double tap on lower left?)
+* remap arrows (am I using them?)
 * arrow layer from ";"
-* take screenshot shortcut
-* rainbow speed from typing speed
-* underglow for mods and layers
+
 * numbers on homerow
+
+* underglow for mods and layers
+* rainbow speed from typing speed
 
 * set underglow colours from cmdline (tests, notifications)
