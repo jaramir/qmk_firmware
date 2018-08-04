@@ -12,4 +12,4 @@ Features
 * Raise + Space is Enter
 * Includes Workman Layout
 * Enter is Right Shift when used as modifier
-
+* Lower and Raised Backspace are Delete
