@@ -7,3 +7,7 @@
         S__NOTE(_REST),   \
         ED_NOTE(_GS6),
 #endif
+
+#define GUI_S_A LGUI(LSFT(KC_A))
+#define ESC_ARR LT(_ARROWS, KC_ESC)
+#define RSFT_ET RSFT_T(KC_ENT)
