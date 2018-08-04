@@ -4,6 +4,7 @@
 #include "config_common.h"
 
 #define GUI_S_A LGUI(LSFT(KC_A))
+#define ESC_ARR LT(_ARROWS, KC_ESC)
 
 #ifdef AUDIO_ENABLE
     // #define STARTUP_SONG SONG(OVERWATCH_THEME)
