@@ -12,3 +12,4 @@
 #define RSH_ENT RSFT_T(KC_ENT)
 #define GUI_SHA LGUI(LSFT(KC_A))
 #define SCR_CAP LGUI(LSFT(LCTL(KC_4)))
+#define LSH_SPC LSFT_T(KC_SPC)

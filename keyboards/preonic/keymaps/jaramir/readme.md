@@ -9,6 +9,7 @@ Features
 * Holding Esc enables arrows on JKIL
 * Lower + Space is Backspace
 * Raise + Space is Enter
+* Space is Left Shift when used as modifier
 * Includes Workman Layout
 * Enter is Right Shift when used as modifier
 * Lower and Raised Backspace are Delete
