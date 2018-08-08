@@ -1,7 +1,7 @@
 IDEAS
 =====
 
-* take screenshot shortcut (double tap on lower left?)
+* thumb shift
 * remap arrows (am I using them?)
 * arrow layer from ";"
 

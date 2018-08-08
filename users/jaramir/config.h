@@ -9,13 +9,6 @@
 #endif
 
 #define ESC_ARR LT(_ARROWS, KC_ESC)
-
-#define RSFT_ET RSFT_T(KC_ENT)
-
-#ifdef TAP_DANCE_ENABLE
-#define TAPPING_TERM 150
-#endif
-
-#ifndef TAP_DANCE_ENABLE
-#define GUI_S_A LGUI(LSFT(KC_A))
-#endif
+#define RSH_ENT RSFT_T(KC_ENT)
+#define GUI_SHA LGUI(LSFT(KC_A))
+#define SCR_CAP LGUI(LSFT(LCTL(KC_4)))
