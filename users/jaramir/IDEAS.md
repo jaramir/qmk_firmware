@@ -1,9 +1,7 @@
 IDEAS
 =====
 
-* thumb shift
 * remap arrows (am I using them?)
-* arrow layer from ";"
 
 * numbers on homerow
 
