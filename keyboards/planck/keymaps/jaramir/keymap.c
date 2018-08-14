@@ -44,18 +44,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * | Tab  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |Esc/Ar|   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |  "   |
+ * |Esc/Ar|   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  | ;/Ar |  "   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |LShift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |Sh/Ent|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |G-S-A | Ctrl | Alt  | GUI  |Lower | Shift/Space |Raise | Left | Down |  Up  |Right |
+ * |G-S-A | Ctrl | Alt  | GUI  |Lower |    Space    |Raise | Left | Down |  Up  |Right |
  * `-----------------------------------------------------------------------------------'
  */
 [_QWERTY] = LAYOUT_planck_grid(
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSPC,
-    ESC_ARR, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
+    ESC_ARR, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    SCL_ARR, KC_QUOT,
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, RSH_ENT,
-    GUI_SHA, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   LSH_SPC, LSH_SPC, RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
+    GUI_SHA, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT
 ),
 
 [_WORKMAN] = LAYOUT_planck_grid(
@@ -63,17 +63,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------.
  * | Tab  |   Q  |   D  |   R  |   W  |   B  |   J  |   F  |   U  |   P  |   ;  | Bksp |
  * |------+------+------+------+------+-------------+------+------+------+------+------|
- * |Esc/Ar|   A  |   S  |   H  |   T  |   G  |   Y  |   N  |   E  |   O  |   I  |  "   |
+ * |Esc/Ar|   A  |   S  |   H  |   T  |   G  |   Y  |   N  |   E  |   O  | I/Ar |  "   |
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * |LShift|   Z  |   X  |   M  |   C  |   V  |   K  |   L  |   ,  |   .  |   /  |Sh/Ent|
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * |G-S-A | Ctrl | Alt  | GUI  |Lower | Shift/Space |Raise | Left | Down |  Up  |Right |
+ * |G-S-A | Ctrl | Alt  | GUI  |Lower |    Space    |Raise | Left | Down |  Up  |Right |
  * `-----------------------------------------------------------------------------------'
  */
   KC_TAB,  KC_Q,    KC_D,    KC_R,    KC_W,    KC_B,    KC_J,    KC_F,    KC_U,    KC_P,    KC_SCLN, KC_BSPC,
-  ESC_ARR, KC_A,    KC_S,    KC_H,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_E,    KC_O,    KC_I,    KC_QUOT,
+  ESC_ARR, KC_A,    KC_S,    KC_H,    KC_T,    KC_G,    KC_Y,    KC_N,    KC_E,    KC_O,    KCI_ARR, KC_QUOT,
   KC_LSFT, KC_Z,    KC_X,    KC_M,    KC_C,    KC_V,    KC_K,    KC_L,    KC_COMM, KC_DOT,  KC_SLSH, RSH_ENT,
-  GUI_SHA, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   LSH_SPC, LSH_SPC, RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT
+  GUI_SHA, KC_LCTL, KC_LALT, KC_LGUI, LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT
 ),
 
 /* Lower
@@ -128,8 +128,25 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, _______, MU_MOD,  AU_ON,   AU_OFF,  AG_NORM, AG_SWAP, QWERTY,  WORKMAN,  _______, _______, _______,
     _______, MUV_DE,  MUV_IN,  MU_ON,   MU_OFF,  MI_ON,   MI_OFF,  TERM_ON, TERM_OFF, _______, _______, _______,
     _______, _______, _______, _______, _______, _______, _______, _______, _______,  _______, _______, _______
-)
+),
 
+/* Arrows
+ * ,-----------------------------------------------------------------------------------.
+ * |      |      | [^ ] | [^^] | [ ^] |[ - ] |      |      |  Up  |      |      |      |
+ * |------+------+------+------+------+-------------+------+------+------+------+------|
+ * |      |      | [< ] | [<>] | [ >] |[XYZ] |      | Left | Down | Right|      |      |
+ * |------+------+------+------+------+------|------+------+------+------+------+------|
+ * |      |      | [v ] | [vv] | [ v] |[ZYX] |      |      |      |      |      |      |
+ * |------+------+------+------+------+------+------+------+------+------+------+------|
+ * |      |      |      |      |      |             |      |      |      |      |      |
+ * `-----------------------------------------------------------------------------------'
+ */
+[_ARROWS] = LAYOUT_planck_grid(
+  _______, _______, SP_TLFT, SP_TOP,  SP_TRGH, SP_CENT, _______, _______, KC_UP,   _______, _______, _______,
+  _______, _______, SP_LEFT, SP_FULL, SP_RGHT, SP_NTHR, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,
+  _______, _______, SP_BLFT, SP_BOTT, SP_BRGH, SP_PTHR, _______, _______, _______, _______, _______, _______,
+  _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
+)
 
 };
 

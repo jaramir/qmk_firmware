@@ -9,10 +9,10 @@ Features
 * Holding Esc, ";" or "I" enables arrows on JKIL and Spectacle on left hand
 * Lower + Space is Backspace
 * Raise + Space is Enter
-* Space is Left Shift when used as modifier
 * Includes Workman Layout
 * Enter is Right Shift when used as modifier
 * Lower and Raised Backspace are Delete
+* ~~Space is Left Shift when used as modifier~~ I will try this again with the grid layout
 
 Shortcuts
 ---------
