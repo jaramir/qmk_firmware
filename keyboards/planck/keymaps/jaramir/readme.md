@@ -6,7 +6,7 @@ and a few things learned on the Preonic
 
 Features
 --------
-* Holding Esc, ";" or "I" enables arrows on JKIL and Spectacle on left hand
+* Holding Esc enables arrows on JKIL and Spectacle on left hand
 * Lower + Space is Backspace
 * Raise + Space is Enter
 * Includes Workman Layout

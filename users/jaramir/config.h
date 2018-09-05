@@ -10,8 +10,6 @@
 
 // Tap Layer Arrows
 #define ESC_ARR LT(_ARROWS, KC_ESC)
-#define SCL_ARR LT(_ARROWS, KC_SCLN)
-#define KCI_ARR LT(_ARROWS, KC_I)
 
 // Mod Tap
 #define RSH_ENT MT(MOD_RSFT, KC_ENT)
