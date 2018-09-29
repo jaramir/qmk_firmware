@@ -34,4 +34,4 @@
 
 // Various shortcuts
 #define GUI_SHA LGUI(LSFT(KC_A))
-#define SCR_CAP LGUI(LSFT(LCTL(KC_4)))
+#define SCR_CAP LGUI(LSFT(KC_5))

@@ -17,4 +17,4 @@ Features
 Shortcuts
 ---------
 * Cmd-Shift-A as the bottom left key (IntelliJ, Slack..)
-* Cmd-Control-Shift-4 as the bottom left key + Lower or Raise (OSX screenshot)
+* Cmd-Shift-5 as the bottom left key + Lower or Raise (OSX screenshot)
