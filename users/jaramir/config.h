@@ -12,7 +12,6 @@
 #define ESC_ARR LT(_ARROWS, KC_ESC)
 
 // Mod Tap
-#define RSH_ENT MT(MOD_RSFT, KC_ENT)
 #define LSH_SPC MT(MOD_LSFT, KC_SPC)
 
 // Spectacle shortcuts
@@ -34,4 +33,5 @@
 
 // Various shortcuts
 #define GUI_SHA LGUI(LSFT(KC_A))
+#define SCR_CPY LGUI(LSFT(LCTL(KC_4)))
 #define SCR_CAP LGUI(LSFT(KC_5))
