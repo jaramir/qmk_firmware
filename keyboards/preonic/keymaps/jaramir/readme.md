@@ -6,13 +6,14 @@ Based on the default Preonic layout
 Features
 --------
 * Top row disabled to emulate a Planck
+* Command, Alt, Control, and Enter where the arrow keys used to be
 * Holding Esc enables arrows on JKIL and Spectacle on left hand
 * Esc + Quote locks the screen
 * Lower + Space is Backspace
 * Raise + Space is Enter
 * Includes Workman Layout
-* ~~Enter is Right Shift when used as modifier~~ Too many unfinished messages sent to Slack
 * Lower and Raised Backspace are Delete
+* ~~Enter is Right Shift when used as modifier~~ Too many unfinished messages sent to Slack
 * ~~Space is Left Shift when used as modifier~~ I will try this again with the grid layout
 
 Shortcuts
