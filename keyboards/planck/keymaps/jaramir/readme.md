@@ -7,6 +7,7 @@ and a few things learned on the Preonic
 Features
 --------
 * Holding Esc enables arrows on JKIL and Spectacle on left hand
+* Esc + Quote locks the screen
 * Lower + Space is Backspace
 * Raise + Space is Enter
 * Includes Workman Layout
