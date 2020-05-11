@@ -1,0 +1,28 @@
+// Tap Layer Arrows
+#define ESC_ARR LT(_ARROWS, KC_ESC)
+#define SPC_ARR LT(_ARROWS, KC_SPC)
+
+// Spectacle shortcuts
+#define SP_FULL LALT(LGUI(KC_F))
+#define SP_CENT LALT(LGUI(KC_C))
+#define SP_TOP LALT(LGUI(KC_UP))
+#define SP_BOTT LALT(LGUI(KC_DOWN))
+#define SP_LEFT LALT(LGUI(KC_LEFT))
+#define SP_RGHT LALT(LGUI(KC_RIGHT))
+#define SP_TLFT LCTL(LGUI(KC_LEFT))
+#define SP_TRGH LCTL(LGUI(KC_RIGHT))
+#define SP_BLFT LSFT(LCTL(LGUI(KC_LEFT)))
+#define SP_BRGH LSFT(LCTL(LGUI(KC_RIGHT)))
+#define SP_NDSP LCTL(LALT(LGUI(KC_LEFT)))
+#define SP_PDSP LCTL(LALT(LGUI(KC_RIGHT)))
+#define SP_SMAL LSFT(LALT(LCTL(KC_LEFT)))
+#define SP_BIGG LSFT(LALT(LCTL(KC_RIGHT)))
+
+// Various shortcuts
+#define GUI_SHA LGUI(LSFT(KC_A))
+#define SCR_CPY LGUI(LSFT(LCTL(KC_4)))
+#define SCR_CAP LGUI(LSFT(KC_5))
+#define LCK_SCR LGUI(LCTL(KC_Q))
+
+//#define TAPPING_TERM 125
+//#define RETRO_TAPPING
