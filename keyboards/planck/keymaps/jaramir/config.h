@@ -26,3 +26,4 @@
 
 //#define TAPPING_TERM 125
 //#define RETRO_TAPPING
+#define RGBLIGHT_ANIMATIONS
